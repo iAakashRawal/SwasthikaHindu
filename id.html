@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            position: absolute;
+            left: 40%;
+            background-color: red;
+            border: 110px solid red !important;
+
+            top: 300px;
+            /* z-index: -1; */
+            animation: AKash 10000ms infinite;
+            /* animation-fill-mode: forwards; */
+        }
+
+        @keyframes AKash {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .a {
+            position: absolute;
+            /* background: red; */
+            background: red;
+            width: 180px;
+            height: 200px;
+            border-radius: 0px 0px 100px 0px;
+            /* z-index: 1; */
+
+        }
+
+        .aC {
+            position: relative;
+            left: 20px;
+            top: 20px;
+            background: #fff;
+            width: 100px;
+            height: 180px;
+        }
+
+        .s {
+            position: absolute;
+            /* background: green; */
+            background: red;
+            /* border-radius: 0px 0px 100px 0px; */
+            left: 150px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .sC {
+
+            background: red;
+            left: 150px;
+            width: 150px;
+            height: 150px;
+        }
+
+        .d {
+            position: absolute;
+            top: -200px;
+            right: -04px;
+            /* background: pink; */
+            background: red;
+            border-radius: 100px 0px 0px 0px;
+
+            width: 200px;
+            height: 200px;
+        }
+
+        .dC {
+            position: relative;
+            left: 55px;
+            background: #fff;
+            width: 100px;
+            height: 160px;
+        }
+
+        .q {
+            position: absolute;
+            left: -145px;
+            background: pink;
+            border-radius: 0px 0px 0px 100px;            
+            width: 165px;
+            height: 200px;
+        }
+
+        .qC {
+            position: relative;
+            top: 20px;
+            /* left: 05px; */
+            background: #fff;
+            width: 130px;
+            height: 130px;
+        }
+
+        .r {
+            position: absolute;
+            top: -200px;
+            background: pink;
+            width: 180px;
+            border-radius: 0px 100px 0px 0px;
+            height: 200px;
+        }
+
+        .rC {
+            position: relative;
+            background: #fff;
+            top: 40px;
+            left: 20px;
+            width: 160px;
+            height: 120px;
+        }
+
+        .e {
+            position: absolute;
+            top: -200px;
+            background: red;
+            width: 200px;
+            height: 200px;
+        }
+
+        .eC {
+            background: red;
+            width: 150px;
+            height: 150px;
+        }
+
+        .aCpoint {
+            position: relative;
+            top: 50px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 0px 200px 100px 200px;
+            background-color: red;
+        }
+
+        .rCpoint {
+            position: relative;
+            top: 50px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 200px 100px 200px 0px;
+            background-color: red;
+        }
+
+        .qCpoint {
+            position: relative;
+            top: 50px;
+            left: 70px;
+            width: 50px;
+            height: 50px;
+            border-radius: 200px 0px 200px 100px;
+            background-color: red;
+        }
+
+        .dCpoint {
+            position: relative;
+            top: 90px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 100px 200px 0px 200px;
+            background-color: red;
+        }
+
+        .container {
+            border: 25px solid red;
+            /* height: 1000px; */
+        }
+        .head{
+            font-size: 5em;
+            font-weight: 800;
+            text-align: center;
+            margin-right: 130px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="head">Swasthika</p>
+    <div class="main">
+        <div class="container">
+            <div class="a red">
+                <div class="aC redC">
+                    <div class="aCpoint"></div>
+                </div>
+            </div>
+            <div class="r yellow">
+                <div class="rC yellow">
+                    <div class="rCpoint"></div>
+                </div>
+            </div>
+            <div class="q blue">
+                <div class="qC blue">
+                    <div class="qCpoint"></div>
+                </div>
+            </div>
+            <div class="d pink">
+                <div class="dC pink">
+                    <div class="dCpoint"></div>
+                </div>
+            </div>
+            <!-- <div class="s green"></div> -->
+            <!-- <div class="e black"></div> -->
+        </div>
+    </div>
+</body>
+
+</html>
